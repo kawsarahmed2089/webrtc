@@ -15,11 +15,11 @@ use Ratchet\App;
 //set an array of origins allowed to connect to this server
 $allowed_origins = ['localhost', '34.75.56.165','62434'];
 
-echo 'Hello Testing';
-/*
 // Run the server application through the WebSocket protocol on port 8080
 $app = new App('localhost', '62434', '34.75.56.165');//App(hostname, port, 'whoCanConnectIP', '')
 
+echo 'Hello Testing';
+/*
 //create socket routes
 //route(uri, classInstance, arrOfAllowedOrigins)
 $app->route('/comm', new Comm, $allowed_origins);
