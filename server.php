@@ -9,8 +9,8 @@
 
 require 'vendor/autoload.php';
 
-use Amir\Comm;
-use Ratchet\App;
+//use Amir\Comm;
+//use Ratchet\App;
 
 //set an array of origins allowed to connect to this server
 $allowed_origins = ['localhost', '34.75.56.165','62434'];
